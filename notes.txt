@@ -1,0 +1,45 @@
+Discussion Forum
+
+Front end Tech stack 
+
+React.js
+Formik + yup
+React Router
+Redux toolkit
+Redux persist
+React drop zone
+
+Backend tech stack
+
+Node.js
+Express.js
+JWT
+Mongoose
+Multer
+
+
+Project backend creation
+
+1.Create a project directory.
+2.Open visual studio code in that directory.
+3.Open terminal -> create a new directory with name “server”.
+a)mkdir server
+4.Change active directory to server.
+a)cd server
+5.Install npm package “nodemon”.
+a)Home work - what is nodemon ?
+6.Install all packages required. 
+a)npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
+b)Home work - learn about all the packages in the above command.
+7.Look for code in index.js file and make notes. The resume time of tutorial is 15:03 minutes.
+8. Install mongoose database and then configure it.
+    a. go to mongoose db website
+    b. create mongo db account
+    c. copy the connection string
+    d. create a .env file locally inside the "server" folder and copy pas connection string here.
+    e. setup mongoose db in index.js file
+9. Add authorization in app.
+    a. start with adding post route into the app.
+    b. app.post(<ROute>, middleware, controllermethod)
+    c. 
+    
